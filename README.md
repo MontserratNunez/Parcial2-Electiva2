@@ -4,12 +4,12 @@
 Administrar un entorno de múltiples servidores Linux basados en contenedores Docker utilizando Ansible como herramienta de automatización y configuración.
 
 ## Estructura del Laboratorio
-ansible-lab/
-├── Dockerfile
-├── docker-compose.yml
-├── inventory.ini
-├── playbook.yml
-└── README.md
+ansible-lab/  
+├── Dockerfile  
+├── docker-compose.yml  
+├── inventory.ini  
+├── playbook.yml  
+└── README.md  
 
 ## Comandos
 1. Levantar los servidores:
