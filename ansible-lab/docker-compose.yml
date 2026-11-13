@@ -1,0 +1,18 @@
+services:
+  ansible-controller:
+    build: .
+    container_name: ansible-controller
+    volumes:
+      - .:/ansible-lab
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: sleep infinity
+
+  server1:
+    image: ubuntu:24.04
+    container_name: server1
+    command: sleep infinity
+
+  server2:
+    image: ubuntu:24.04
+    container_name: server2
+    command: sleep infinity
